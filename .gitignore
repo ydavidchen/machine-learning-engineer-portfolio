@@ -6,6 +6,7 @@ submissions/
 .IDEA/
 %Solution%
 *_solution
+__pycache__/
 
 .ipynb_checkpoints
 .DS_Store
