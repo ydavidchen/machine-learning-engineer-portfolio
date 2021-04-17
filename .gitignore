@@ -4,6 +4,8 @@ notebooks/
 unit_tests/
 submissions/
 .IDEA/
+%Solution%
+*_solution
 
 .ipynb_checkpoints
 .DS_Store
