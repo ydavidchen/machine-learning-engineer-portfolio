@@ -166,7 +166,9 @@ if __name__ == '__main__':
     save_model_params(model, args.model_dir)
 
     ## TODO: Define an optimizer and loss function for training
-    optimizer = optim.SGD(model.parameters(), lr=args.lr)
+    # Tested SGD but performance was poor
+    # Use Adam as a go-to algo
+    optimizer = optim.Adam(model.parameters(), lr=args.lr)
     criterion = nn.BCELoss()
 
     
